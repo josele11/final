@@ -8,14 +8,27 @@ public class CuentaBancaria {
 	private double credito;
 	private double prestamo;
 	private boolean tienePrestamo;
-
+public class retirarSaldo{
+	private List<String> retirarSaldo;
+	public retirarSaldo() {
+		retirarSaldo= new Arraylist<>();
+	/**
+	 **hola profe
+	 **@author joset
+	 **@
+	 **
+	 **
+	 */
+				
+	}
+}
 	public CuentaBancaria() {
 		saldo = new ArrayList<Double>();
 		credito = 0;
 		prestamo = 0;
 		tienePrestamo = false;
 	}
-
+	
 	public void agregarSaldo(double cantidad) {
 		if (prestamo > 0) {
 			prestamo -= cantidad;
